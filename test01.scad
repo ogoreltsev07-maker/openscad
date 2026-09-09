@@ -7,12 +7,30 @@ fitnes_frame = 4;
 w_back = 60;
 h_back = 35;
 thickness_back = 1;
+thickness_walls = 2;
+thickness_bottom = 2;
+h_walls = 4;
+
 
 //frame1();
 
 
-rotate([90, 0, 0])
-backlight();
+//rotate([90, 0, 0])
+//translate([0, 0, 3])
+//backlight();
+//bottom();
+walls();
+
+module walls(){
+    difference(){
+        cube([w_back + 2*thickness_walls, h_back+2*thickness_walls, h_walls],center = true);
+        color ("red")
+        cube([w_back, h_back, h_walls +1],center = true);
+    }
+}
+module bottom(){
+cube([w_back + 2*thickness_walls, h_back+2*thickness_walls, thickness_bottom],center = true);
+}
 
 module backlight() {
     color("lightgreen")

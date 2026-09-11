@@ -1,3 +1,5 @@
+use <akkum18650.scad>
+
 echo("Работа Огорельцева Тимура!");
 w_frame = 65;
 d_frame = 5;
@@ -19,6 +21,7 @@ h_walls = 4;
 //translate([0, 0, 3])
 //backlight();
 kit_frame();
+akkum18650();
 
 module kit_frame(){
 bottom();

@@ -17,6 +17,10 @@ module akkum18650_set() {
     import("flexbatter18650x2.stl");
 }
 module akkum18650() {
+<<<<<<< HEAD
     color("lightgreen")
+=======
+    color("purple")
+>>>>>>> b2ce4056f9b33d12902e137182eb343e49bc4955
     cylinder(d=d_akkum, h=h_akkum, $fn=32, center = true);
 }

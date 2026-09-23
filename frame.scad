@@ -21,10 +21,10 @@ h_akkum = 65;
 //akkum18650();
 
 
-
+kit_frame();
 module kit_frame(){
 bottom();
-color("blue")
+//color("blue")
 translate([0, 0, h_walls/2+thickness_bottom/2])
 walls();
 }

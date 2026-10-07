@@ -1,4 +1,4 @@
-use <SecondPractice.scad>
+use <frame.scad>
 use <18650.scad>
 
 d_akkum = 18;

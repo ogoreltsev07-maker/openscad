@@ -9,6 +9,7 @@ h_back = 45;
 thickness_back = 1;
 thickness_walls = 2;
 thickness_bottom = 2;
+thickness_top = 2;
 h_walls = 4;
 gap_backlight = 1.5;
 d_akkum = 18;

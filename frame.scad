@@ -16,10 +16,11 @@ h_walls = 4;
 gap_backlight = 1.5;
 w_controller = 20;
 
-kit_frame();
-translate([w_back/2+w_controller/2+2*thickness_walls, 0, 0])
-kit_controller();
-//frame_debug();
+//kit_frame();
+//translate([w_back/2+w_controller/2+2*thickness_walls, 0, 0])
+//kit_controller();
+debug_controller();
+frame_debug();
 //translate([0, 0, thickness_bottom/2+thikness_top/2])
 
 module window_frame(){

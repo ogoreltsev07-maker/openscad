@@ -1,10 +1,14 @@
-# Подсветка для рамки кадров рентгеноскопии / Frame Backlight
+# Подсветка для рамки кадров рентгеноскопии 
 
-3D-printable model designed in OpenSCAD.
-The backlight is powered by a 18650 Li-ion battery.
+## Frame Backlight
 
-![commonMD](build_frame_openscad.png)
+Model for 3D-printing of language OpenScad.
+Backlight powered from akkum 18650 LiIon.
 
-## Hyperlinks
+![commonMD](build_frame.png)
+![commonMD](build_frame_2akkum_openscad.png)
+![commonMD](build_frame_2akkum_openscad_wires.png)
 
-1. [OpenSCAD double 18650 battery holder model](https://www.thingiverse.com/thing:456900) on Thingiverse
+# Hyperlinks
+
+1. [OpenScad model holder of double akkum 18650](https://www.thingiverse.com/thing:456900) on site thingiverse

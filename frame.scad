@@ -1,7 +1,7 @@
 use <akkum_18650.scad>
 use <controller.scad>
 
-echo("Работа Асыловой Анастасии!");
+echo("Работа Огорельцева Тимура");
 
 thickness_frame = 4;
 thickness_walls = 2;

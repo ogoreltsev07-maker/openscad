@@ -12,8 +12,13 @@ width_frame_window = 3;
 //kit_controller();
 //walls();
 //debug_controller();
-frame_controller();
+test_print_walls_frame();
 
+module test_print_walls_frame(){
+    frame_controller();
+    translate([-w_controller-width_frame_window-2, 0, h_walls/2])
+    walls();
+}
 
 module frame_controller(){
 difference(){
